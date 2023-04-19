@@ -1,3 +1,8 @@
+#### 5.1강 0:34 부터.
+
+(그 전에 3-4 빠르게 듣고)
+https://nomadcoders.co/react-for-beginners/lectures/3280
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
