@@ -1,6 +1,5 @@
 #### 5.1강 0:34 부터.
 
-(그 전에 4.0부터 빠르게 듣고)
 https://nomadcoders.co/react-for-beginners/lectures/3280
 
 # Getting Started with Create React App
