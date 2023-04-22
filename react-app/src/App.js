@@ -1,13 +1,11 @@
 import Button from "./components/Button";
-import KilometerToMiles from "./components/KilometerToMiles";
-import MinutesToHours from "./components/MinutesToHours";
-
-import Props from "./components/props/Props";
+import styles from "../App.module.css";
 
 function App() {
   return (
     <div>
-      <Props />
+      <h1 className={styles.title}>제목</h1>
+      <Button text={"작업"} />
     </div>
   );
 }
