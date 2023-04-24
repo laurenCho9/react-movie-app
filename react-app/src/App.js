@@ -1,9 +1,9 @@
-import TodoList from "./components/todos/TodoList";
+import CoinTracker from "./components/coin/CoinTracker";
 
 function App() {
   return (
     <div>
-      <TodoList />
+      <CoinTracker />
     </div>
   );
 }
