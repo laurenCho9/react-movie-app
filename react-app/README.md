@@ -1,6 +1,14 @@
-#### 5.1강 0:34 부터.
+#### 7.3강 15:40 부터.
 
-https://nomadcoders.co/react-for-beginners/lectures/3280
+https://nomadcoders.co/react-for-beginners/lectures/3289
+
+##### CoinTracker API
+
+https://api.coinpaprika.com/v1/tickers
+
+#### MovieList API
+
+https://yts.mx/api/v2/list_movies.json?minimum_rating=8.5&sort_by=year
 
 # Getting Started with Create React App
 
