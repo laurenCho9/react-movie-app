@@ -1,9 +1,9 @@
-import MovieList from "./components/movie/MovieList";
+import MovieMain from "./components/movie/MovieMain";
 
 function App() {
   return (
     <div>
-      <MovieList />
+      <MovieMain />
     </div>
   );
 }
