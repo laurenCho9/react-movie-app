@@ -1,6 +1,10 @@
-#### 7.3강 15:40 부터.
+#### 7.6강 강의 후.마무리
 
-https://nomadcoders.co/react-for-beginners/lectures/3289
+1. Detail에 로딩이나 내용들이 아무것도 없다 (Home에 해줬던 로딩을 적용)
+2. movie가 State에 있지 않다.(지금 API에서 json을 받아와서 아무것도 안하고 있다. console.log로 확인만한 상태. 그러니까 그 json을 State에 넣어주면 어떨까? 그럼 해당 페이지에서 상세 정보들을 보여줄 수 있다.)
+
+-> state, setState, useEffect가 전부다. 이제 html 이랑 css가 전부이다.
+-> props, propTypes도 배웠고 끝. 이게 멋진 앱을 만들기 위한 전부이다.
 
 ##### CoinTracker API
 
