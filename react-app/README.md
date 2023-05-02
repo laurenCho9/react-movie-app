@@ -1,10 +1,14 @@
-#### 7.6강 강의 후.마무리
+#### 7.7강 github pages 배포
 
-1. Detail에 로딩이나 내용들이 아무것도 없다 (Home에 해줬던 로딩을 적용)
-2. movie가 State에 있지 않다.(지금 API에서 json을 받아와서 아무것도 안하고 있다. console.log로 확인만한 상태. 그러니까 그 json을 State에 넣어주면 어떨까? 그럼 해당 페이지에서 상세 정보들을 보여줄 수 있다.)
-
--> state, setState, useEffect가 전부다. 이제 html 이랑 css가 전부이다.
--> props, propTypes도 배웠고 끝. 이게 멋진 앱을 만들기 위한 전부이다.
+- npm i gh-pages: 결과물을 github pages에 업로드할 수 있게 해주는 패키지
+- npm run build: 빌드 폴더 생성, 코드 압축 및 최적화
+- git remote -v: 레포지토리 이름 조회
+- npm run deploy: 배포 실행
+- package.json에 입력한 homepage: 링크로 접속. 2분 뒤 배포된 게 열림.
+- 흰 페이지만 뜨고 콘솔창 에러: Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.
+  스택 오버플로우에서 <Home /> 컴포넌트에 해당하는 라우트의 path="/"에 path="/desa" 로 경로를 정의해야 한다고 하여 입력 후 해결.
+  (문제는 오류 메시지가 아니라 반응 라우터를 사용하고 있기 때문에 github repo 이름에 따라 경로를 정의해야 합니다.)
+  -> /home으로 해도 잘 되었고, 다시 /로 바꿨는데도 잘 되었다. 단지 시간 문제였던 것 같다.
 
 ##### CoinTracker API
 
