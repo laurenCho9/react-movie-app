@@ -1,9 +1,16 @@
-import MovieMain from "./components/movie/MovieMain";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Home from "./components/routes/Home";
+import Detail from "./components/routes/Detail";
 
 function App() {
   return (
     <div>
-      <MovieMain />
+      <Router>
+        <Routes>
+          <Route path="/movie" element={<Detail />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
