@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { Link, Router } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Movies({ id, coverImg, title, summary, genres }) {
   return (
@@ -8,7 +8,8 @@ function Movies({ id, coverImg, title, summary, genres }) {
       <h2>
         <Link to={`/movie/${id}`}>{title}</Link>
       </h2>
-      <p>{summary}</p>
+      {/* <p>{summary}</p> */}
+      <p>{summary.length > 235 ? `${summary.slice(0, 235)}..` : summary}</p>
       <ul>
         {genres.map((g) => (
           <li key={g}>{g}</li>
