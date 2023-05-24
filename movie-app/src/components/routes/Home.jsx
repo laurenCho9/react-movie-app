@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Movies from "../movie/Movies";
+import styled from "styled-components";
 
 function Home() {
   const [loading, setLoading] = useState(true);
@@ -18,11 +19,11 @@ function Home() {
   }, []);
   console.log(movies);
   return (
-    <div>
+    <Container>
       {loading ? (
         <h1>Loading...</h1>
       ) : (
-        <div>
+        <Section>
           {movies.map((movie) => (
             <Movies
               id={movie.id}
@@ -33,10 +34,21 @@ function Home() {
               genres={movie.genres}
             />
           ))}
-        </div>
+        </Section>
       )}
-    </div>
+    </Container>
   );
 }
+
+const Container = styled.div`
+  margin-top: 30px;
+  max-width: 1200px;
+`;
+const Section = styled.div`
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 100%;
+`;
 
 export default Home;
