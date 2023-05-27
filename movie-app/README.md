@@ -1,3 +1,13 @@
+# React-Project-MovieListSite
+
+리액트 + YTS API\_영화 목록 조회 사이트
+
+YTS.mx API 사용 - https://yts.mx/
+
+# 🖥 프로젝트 소개
+
+Movie List Site 평점 8.5 이상의 영화 목록 조회 사이트입니다.
+
 #### 7.7강 github pages 배포
 
 - npm i gh-pages: 결과물을 github pages에 업로드할 수 있게 해주는 패키지
